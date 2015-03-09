@@ -7,6 +7,7 @@ package hashmapexample;
 
 import java.util.HashMap;
 import java.util.Map;
+import javax.swing.JFileChooser;
 
 /**
  *
@@ -19,6 +20,7 @@ public class HashMapExample {
      */
     public static void main(String[] args) 
     {
+        /*
         HashMap<Integer,Profile> hashMap = new HashMap<Integer,Profile>();
         Profile bruno = new Profile("Bruno",22,"12345");
         Profile christian = new Profile("Christian", 25, "23456");
@@ -35,6 +37,11 @@ public class HashMapExample {
             Profile profile = entry.getValue();
             System.out.println(empId + "   " + profile);
         }
+        */
+        
+        SelectFile selectFile = new SelectFile();
+        selectFile.selectTextFile();
+        
     }
     
 }
